@@ -2,7 +2,7 @@
     display: flex;
     justify-content: space-around;
     height: 100vh;
-    background-color: #ace2f7;
+    background: linear-gradient(to bottom right, #a1d9f2,#ace2f7);
     align-items: flex-start;
     align-content: space-between;
     flex-direction: row-reverse;
@@ -20,3 +20,20 @@
     max-height: 100%;
   }
   
+  .div-component{
+    display: flex;
+    justify-content: center;
+    padding: 2%;
+    text-align:center;
+    min-height: 350px;
+    align-items: center;
+  }
+  .div-image-com{
+    display: flex;
+    justify-content: center;
+  }
+
+  .h1-s{
+    font-weight: 700 !important;
+    color: white;
+  }
