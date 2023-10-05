@@ -11,7 +11,8 @@ import { FooterComponent } from './shared/footer/footer.component';
 
 import { ComponentsModule } from './components/components.module';
 import { ExamplesModule } from './examples/examples.module';
-
+import { NoopAnimationsModule } from '@angular/platform-browser/animations';
+import {MatListModule} from '@angular/material/list';
 
 @NgModule({
   declarations: [
@@ -26,6 +27,8 @@ import { ExamplesModule } from './examples/examples.module';
     RouterModule,
     ExamplesModule,
     AppRoutingModule,
+    NoopAnimationsModule,
+    MatListModule
   ],
   providers: [],
   bootstrap: [AppComponent]

@@ -27,6 +27,7 @@
   text-align:center;
   min-height: 350px;
   align-items: center;
+  flex-wrap: wrap;
 }
 .div-image-com{
   display: flex;
@@ -38,3 +39,13 @@
   color: white;
   font-size: 35px;
 }
+
+.h1-f{
+  font-weight: 300 !important;
+  color: white;
+  font-size: 20px;
+}
+ .list{
+  display: flex;
+  justify-content: space-around;
+ }

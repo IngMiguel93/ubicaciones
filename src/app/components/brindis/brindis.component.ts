@@ -10,6 +10,7 @@ export class BrindisComponent implements OnInit {
   constructor() { }
 
   ngOnInit(): void {
+    window.location.href = "https://maps.app.goo.gl/H4km8YE8X2cnGtpA9";
   }
 
 }
